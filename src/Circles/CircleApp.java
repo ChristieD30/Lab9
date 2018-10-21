@@ -13,8 +13,8 @@ public class CircleApp {
 	 
 	Circle circle = new Circle(userNum);
 	
-	System.out.println("Circumference is: " + circle.getFormattedCircumference());
-	System.out.println("Area is: " + circle.getFormattedArea());
+	System.out.println("The circumference of your circle is: " + circle.getFormattedCircumference());
+	System.out.println("The area of your circle is: " + circle.getFormattedArea());
 	
 	yesNo = Validator.getString(scan, "Would you like to continue? y/n ");
 	
